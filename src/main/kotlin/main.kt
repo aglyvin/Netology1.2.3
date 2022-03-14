@@ -6,7 +6,7 @@ fun main() {
     val orderPrice = 5000
     var finalPrice = 0;
 
-    val discount = if(spending <= 1000100 && spending >= 100100) orderPrice * (1 - maxDicount) else ()
-    if (spending <= 1000100) finalPrice = (Int)(orderPrice * (1 - maxDicount))
+    val discount = if(spending <= 100100) 0 else (10000)
+
 
 }
